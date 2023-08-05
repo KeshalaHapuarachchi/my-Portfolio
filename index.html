@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./images/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nethmi Nikeshala | Portfolio</title>
+
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <!-- <box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- smptp email -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <header class="header">
+      <a href="#" class="logo">Portfolio.</a>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="bx-bx-moon" id="darkMood-icon">
+        <i id="darkMode-icon" class="bx bx-moon"></i>
+      </div>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, I am</h3>
+        <h1>Nethmi Nikeshala</h1>
+        <p>
+          I'm an underaduate and a 
+          former DevOps Engineer
+        </p>
+
+        <div class="social-media">
+          <a href="https://www.facebook.com/keshala.hapuarachchi.7?mibextid=ZbWKwL"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="https://github.com/Keshala09"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://twitter.com/Keshala_17"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/invites/contact/?i=pqorjlurhnr6&utm_content=q889sr0/"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/nethmi-nikeshala/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://medium.com/%40keshanu425"
+          ><i class="bx bxl-medium"></i
+        ></a>
+        ></a>
+        <a href="https://youtube.com/@KeshalaHapuarachchi"
+        ><i class="bx bxl-youtube"></i
+      ></a>
+        </div>
+
+        <a href="./CV/NethmiCV.pdf" download class="btn">Download CV</a>
+      </div>
+
+      <div class="profession-container">
+        <div class="profession-box">
+          <div class="profession" style="--i: 0">
+            <i class="bx bx-code-alt"></i>
+            <h3>System Engineering</h3>
+          </div>
+          <div class="profession" style="--i: 1">
+            <i class="bx bx-mobile"></i>
+            <h3>DevOps Engineering</h3>
+          </div>
+          <!-- <div class="profession" style="--i: 2">
+            <i class="bx bxs-photo-album"></i>
+            <h3>Lightroom</h3>
+          </div> -->
+          <div class="profession" style="--i: 3">
+            <i class="bx bxs-color"></i>
+            <h3>Cloud Engineering</h3>
+          </div>
+          <div class="circle"></div>
+        </div>
+        <div class="overlay"></div>
+      </div>
+      <div class="home-img">
+        <img src="images/profile.png" alt="profile" />
+      </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+      <!-- <div class="about-img"> -->
+      <img src="images/blue1.png" alt="aboutimage" />
+      <!-- </div> -->
+      <!-- <div class="about-img"><img src="images/about.png" alt="aboutimage"</div> -->
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Hi Welcome to my portfolio! I am a dynamic and ambitious individual with a passion for technology and a drive for success. At the age of 22, 
+          I have already made impressive strides in my career and education. Currently pursuing a bachelor’s degree in IT, I am determined 
+          to expand my knowledge and expertise in the ever-evolving world of information technology. One of my distinguishing characteristics
+          is my two years of industry experience, which sets me apart as someone who has already gained practical insights into the IT field. I have already completed Oracle Professional certifications, showcasing my commitment to staying 
+          updated with the latest industry standards and technologies. My proficiency with both Azure and AWS reflects my adaptability and versatility, allowing me to work 
+          effectively across various cloud platforms.</h3>
+        <p></p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- eduction part design -->
+    <section class="ediu" id="ediu">
+      <div class="ediu-container">
+        <h2 class="heading">My <span>Education</span></h2>
+
+        <div class="ediu-wrapper">
+          <div class="ediu-box mySwiper">
+            <div class="ediu-content swiper-wrapper">
+              <div class="ediu-slide swiper-slide">
+                <img src="images/icc.png" alt="iccimg" />
+                <h3>Wayamba University of Sri Lanka</h3>
+                <p>
+                  Diploma in Computer Applications & IT Management.
+                </p>
+              </div>
+
+              <div class="ediu-slide swiper-slide">
+                <img src="images/sliit.png" alt="iccimg" />
+                <h3>SLIIT | Sri Lanka Institute of Information Technology</h3>
+                <p>
+                  undergraduate student pursuing a BSc in Information Technology
+                  .
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h1>Code Building & Testing</h1>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-code-block"></i>
+          <h1>Web Deployment</h1>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-mobile"></i>
+          <h1>Monitoring & Operations</h1>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-edit"></i>
+          <h1>Content Writting</h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- project section desing -->
+    <section class="projects" id="projects">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+      <div class="projects-container">
+        <div class="projects-box">
+          <img src="images/event.png" alt="eventimg" />
+          <div class="projects-layer">
+            <h4>School Management System</h4>
+            <p>
+              This project aims to develop a comprehensive and efficient system for managing various
+              aspects of a school using Wamp server for database creation and maintenance. The system is 
+              implemented using Java, NetBeans 8.1, Adobe Photoshop (CS4), Adobe Illustrator (CS4), Pencil Software,
+              and runs on the Windows 7 operating system.
+            </p>
+            <a
+              href="https://github.com/Keshala09/school-management-system"
+              ><i class="bx bxl-github"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="projects-box">
+          <img src="images/foodapp.png" alt="foodapp" />
+          <div class="projects-layer">
+            <h4>Job Portal System</h4>
+            <p>
+              This is my university group project, under the Mobile Application Development module. I have created 
+              this mobile application using Kotlin language on Android Studio. There is a
+              four main parts, as User Management, Post Job Vacancies, Apply for Jobs, 
+              Payment Portal.
+            </p>
+            <a href="https://github.com/Keshala09/job-portal-mobile-application"
+              ><i class="bx bxl-github"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="projects-box">
+          <img src="images/greencare.png" alt="greencare" />
+          <div class="projects-layer">
+            <h4>Kubernetes Cluster using Ansible</h4>
+            <p>
+              I have done the Kubernetes Cluster Setup in Public Cloud Using Ansible. This project shows to run Ansible Playbook for setting 
+              Cluster in AWS.
+            </p>
+            <a href="https://github.com/Keshala09/kubernetes-cluster-setup-using-ansible"
+              ><i class="bx bxl-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form action="#" class="form-contact">
+        <div class="input-box">
+          <input type="text" id="fname" placeholder="Full Name" />
+          <input type="email" id="email" placeholder="Email Address" />
+          <input type="number" id="number" placeholder="Mobile Number" />
+          <input type="text" id="subject" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name="textarea"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+          class="textarea"
+        ></textarea>
+        <input type="submit" id="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- footer section -->
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Nethmi Nikeshala | All Right Reserved</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bxs-arrow-to-top"></i></a>
+      </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swipeer js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- customer js -->
+    <script src="script.js"></script>
+  </body>
+</html>
